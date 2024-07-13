@@ -1,0 +1,61 @@
+body {
+    margin: 1px;
+    background-color: rgb(235, 245, 144);
+}
+
+/*navbar*/
+.nav-container {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: #a9e9f5;
+}
+
+.navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    color: #160338;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
+.ver-carrito {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+}
+
+/*Banner styles*/
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(212, 92, 176, 0.4), rgba(118, 223, 114, 0.4)),
+}
+
+.banner-container {
+    text-align: center;
+    padding: 15% 0;
+}
+
+.banner h1 {
+    margin: 0;
+    color: rgb(27, 5, 151);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 30px;
+    color: rgb(9, 185, 238);
+    opacity: 0.7;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
