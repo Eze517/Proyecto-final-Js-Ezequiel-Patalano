@@ -9,7 +9,7 @@ Swal.fire({
     if (result.isConfirmed) {
       Swal.fire({
         title: "Excelente podés continuar",
-        text: "Your file has been deleted.",
+        text: "Su archivo ha sido eliminado.",
         icon: "success"
       });
     }
